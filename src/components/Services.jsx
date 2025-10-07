@@ -3,7 +3,7 @@ import image from "../assets/img03.jpg";
 
 const Services = () => {
   return (
-    <div className="bg-black lg:px-[8%] px-[20px] pt-32 ">
+    <div className="bg-black text-white lg:px-[8%] px-[20px] pt-32 ">
       <div>
         <div className="text-right  pt-20 mb-16">
           <p>

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="bg-black sm:h-screen h-screen w-full gap-20 sm:flex justify-between items-end flex px-[20px] lg:px-[8%]">
       <div className="sm:basis-1/2 mb-20">
-        <h1 className="sm:text-7xl font-bold mb-10 sm:w-2xl w-full text-5xl sm:leading-[95px] leading-[75px] ">
+        <h1 className="text-white sm:text-7xl font-bold mb-10 sm:w-2xl w-full text-5xl sm:leading-[95px] leading-[75px] ">
           Designing <span className="font-thin">a Better</span> World{" "}
           <span className="font-thin">Today</span>
         </h1>
@@ -16,10 +16,10 @@ const Hero = () => {
 
         <div className="btn flex gap-10 ">
           <button className="btn-main">
-            What I do <i class="fa-solid fa-arrow-right icon-dark"></i>
+            What I do <i className="fa-solid fa-arrow-right icon-dark"></i>
           </button>
           <button className="btn-transparent">
-            View Project <i class="fa-solid fa-arrow-right icon-light"></i>
+            View Project <i className="fa-solid fa-arrow-right icon-light"></i>
           </button>
         </div>
       </div>
