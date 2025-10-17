@@ -18,8 +18,9 @@ const Hero = () => {
           <button className="btn-main">
             What I do <i className="fa-solid fa-arrow-right icon-dark"></i>
           </button>
-          <button className="btn-transparent">
-            View Project <i className="fa-solid fa-arrow-right icon-light"></i>
+          <button className="btn-transparent text-white">
+            View Portfolio{" "}
+            <i className="fa-solid fa-arrow-right icon-light"></i>
           </button>
         </div>
       </div>

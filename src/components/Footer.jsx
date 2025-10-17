@@ -25,9 +25,9 @@ const Footer = () => {
               <li className="text-lg mb-3">
                 <NavLink to={"/portfolio"}>Portfolio</NavLink>
               </li>
-              <li className="text-lg mb-3">
+              {/* <li className="text-lg mb-3">
                 <NavLink to={"/services"}>Services</NavLink>
-              </li>
+              </li> */}
               <li className="text-lg mb-3">
                 <NavLink to={"/contact"}>Contact</NavLink>
               </li>
