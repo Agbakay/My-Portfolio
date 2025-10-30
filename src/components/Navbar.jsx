@@ -7,6 +7,8 @@ import {
   NavLink,
 } from "react-router-dom";
 
+import logo from "../assets/logo.png";
+
 // --- Placeholder Page Components ---
 // These are simple components to show that routing is working.
 const Home = () => (
@@ -43,7 +45,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <NavLink to="/" className="text-2xl font-bold text-white">
-              Logo Here
+              <img src={logo} alt="" width={50} />
             </NavLink>
           </div>
 

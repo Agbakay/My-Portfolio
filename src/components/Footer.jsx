@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" bg-black pt-20 px-5">
+    <div className=" bg-black pt-20 px-5 lg:px-[10%]">
       <div>
         <div className="lg:flex justify-between py-10">
           <div className="basis-[30%]">
             <img src="" alt="" />
             <h3 className="mb-5">Tagline</h3>
             <p className="text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              magnam error debitis fuga quam excepturi corrupti fugiat sint
-              soluta mollitia, repudiandae vel architecto libero ullam possimus
-              totam exercitationem magni repellat.
+              My journey into technology was driven by a passion for solving
+              problems and creating things that people love to use. For me, a
+              website is more than just code—it's the digital home for a great
+              idea.
             </p>
           </div>
           <div className="lg:my-0 my-10">
