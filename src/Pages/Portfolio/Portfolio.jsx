@@ -24,7 +24,7 @@ const Portfolio = () => {
           </h1>
 
           <a href="">
-            Our Works <i className="fa-solid fa-arrow-down icon-dark"></i>
+            My Works <i className="fa-solid fa-arrow-down icon-dark"></i>
           </a>
         </div>
       </div>
@@ -231,10 +231,10 @@ const Portfolio = () => {
         </div>
         <div className="text-center">
           <h1 className="text-5xl font-semibold mb-3">
-            Ready to bring your<span className="thin">ideas to</span> life?
+            Ready to bring your <span className="thin">ideas to</span> life?
           </h1>
           <h1 className="text-5xl font-semibold mb-10">
-            We're <span className="thin">here to help</span>{" "}
+            I'm <span className="thin">here to help</span>{" "}
           </h1>
           <button className="btn-main">
             What I do <i className="fa-solid fa-arrow-right icon-dark"></i>

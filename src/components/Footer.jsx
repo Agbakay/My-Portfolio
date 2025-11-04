@@ -36,18 +36,28 @@ const Footer = () => {
           <div className="mb-10">
             <h1 className="text-3xl">Socials</h1>
             <div className="socials mt-5 gap-6 flex">
-              <i className="fa-brands fa-facebook-f text-3xl icon-light"></i>
-              <i className="fa-brands fa-x-twitter text-3xl icon-light "></i>
-              <i className="fa-brands fa-linkedin text-3xl icon-light "></i>
-              <i className="fa-brands fa-instagram text-3xl  icon-light"></i>
-              <i className="fa-brands fa-whatsapp text-3xl icon-light"></i>
+              <a href="">
+                <i className="fa-brands fa-facebook-f text-3xl text-white"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-x-twitter text-3xl  text-white"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-linkedin text-3xl text-white "></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-instagram text-3xl  text-white"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-whatsapp text-3xl text-white"></i>
+              </a>
             </div>
             <div></div>
           </div>
         </div>
         <div className="py-5  border-t border-gray-700">
           {/* <hr className="bg-gray-300 text-gray-100" /> */}
-          <p className="">© Copyright 2025 - All Rights Reserved</p>
+          <p className="text-white">© Copyright 2025 - All Rights Reserved</p>
         </div>
       </div>
     </div>
