@@ -2,7 +2,6 @@ import React from "react";
 
 import ddhq from "../../assets/ddhq.png";
 import hcw from "../../assets/hcw.png";
-import elit from "../../assets/elit.png";
 import elite from "../../assets/elite.png";
 import aixp from "../../assets/aixp.png";
 import sow from "../../assets/sow.png";
