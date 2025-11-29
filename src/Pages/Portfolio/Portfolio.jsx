@@ -3,6 +3,7 @@ import React from "react";
 import ddhq from "../../assets/ddhq.png";
 import hcw from "../../assets/hcw.png";
 import elit from "../../assets/elit.png";
+import elite from "../../assets/elite.png";
 import aixp from "../../assets/aixp.png";
 import sow from "../../assets/sow.png";
 import cfe from "../../assets/cfe.png";
@@ -101,7 +102,7 @@ const Portfolio = () => {
           <div className="items">
             <div className="image h-[400px] ">
               <img
-                src={elit}
+                src={elite}
                 alt=""
                 className="transition duration-500  ease-in-out hover:scale-[1.01] block m-auto w-full h-full object-cover "
               />
