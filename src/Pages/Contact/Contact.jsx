@@ -67,11 +67,40 @@ const Contact = () => {
   };
 
   return (
-    <div className="lg:px-[8%] w-full px-5 ">
-      <div className="flex items-center justify-center h-[600px] ">
+    <div className="lg:px-[10%] w-full px-5">
+      <div className="flex items-center justify-center h-[300px] lg:h-[400px]">
         <h1 className="text-7xl text-black font-semibold">Get In Touch!</h1>
       </div>
+
+      <div className="my-10">
+        <div className=" m-auto flex items-center justify-center">
+          <div className="col mb-30 block">
+            {/*  */}
+            {/* social media */}
+
+            <div className="social">
+              <a href="">
+                <i className="fa-brands fa-facebook text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-linkedin text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-x-twitter text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-instagram text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              </a>
+            </div>
+            <p className="ml-10 text-center font-semibold text-xl">
+              Follow us on socail Media
+            </p>
+          </div>
+        </div>
+      </div>
       <div>
+        <h2 className="mb-3 text-3xl font-semibold">Send us a message</h2>
+        <div className="bg-orange-300 h-[3px] w-[50px] mb-10"></div>
         <form
           onSubmit={handleSubmit}
           className="text-black pb-20 flex flex-col gap-8"
