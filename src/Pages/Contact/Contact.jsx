@@ -78,22 +78,22 @@ const Contact = () => {
             {/*  */}
             {/* social media */}
 
-            <div className="social">
-              <a href="">
-                <i className="fa-brands fa-facebook text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+            <div className="social flex gap-5 justify-between items-center">
+              <a href="" className="">
+                <i className="fa-brands fa-facebook text-3xl hover:scale-[1.2] transition delay-75  mb-10"></i>
               </a>
-              <a href="">
-                <i className="fa-brands fa-linkedin text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              <a href="" className="">
+                <i className="fa-brands fa-linkedin text-3xl hover:scale-[1.2] transition delay-75  mb-10"></i>
               </a>
-              <a href="">
-                <i className="fa-brands fa-x-twitter text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              <a href="" className="">
+                <i className="fa-brands fa-x-twitter text-3xl hover:scale-[1.2] transition delay-75  mb-10"></i>
               </a>
-              <a href="">
-                <i className="fa-brands fa-instagram text-2xl hover:scale-[1.2] transition delay-75 icon-dark mb-10"></i>
+              <a href="" className="">
+                <i className="fa-brands fa-instagram text-3xl hover:scale-[1.2] transition delay-75  mb-10"></i>
               </a>
             </div>
             <p className="ml-10 text-center font-semibold text-xl">
-              Follow us on socail Media
+              Follow us on social Media
             </p>
           </div>
         </div>
